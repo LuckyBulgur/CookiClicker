@@ -1,0 +1,83 @@
+h1{
+    font-family: 'Roboto', sans-serif; font-weight: 500; color: #494949; text-transform: uppercase;
+    margin-left: 180px;
+}
+h4{
+    font-family: 'Roboto', sans-serif; font-weight: 500; color: #494949; text-transform: uppercase;
+    margin-left: 595px;
+}
+#Home{
+    margin-left: 530px;
+}
+#button{
+    margin-left: 590px;
+    margin-top: 100px;
+}
+#plusplus{
+    font-family: 'Roboto', sans-serif; font-weight: 500; color: #494949; text-transform: uppercase;
+    margin-left: 120px;
+}
+#notgenug{
+    font-family: 'Roboto', sans-serif; font-weight: 500; color: #494949; text-transform: uppercase;
+    margin-left: 140px;
+}
+#idupgraden{
+    margin-left: 745px;
+}
+body{
+    background-image: url("../img/back.png");
+}
+
+@media screen and (max-width: 1024px){
+    header{
+        height: auto;
+    }
+    .cookieclickerklasse{
+        width: 100%;
+        height: 100%;
+    }
+    h3,h4,#Home,#button,#notgenut,body{
+        margin-left: 150px;
+    }
+    #Upgrades{
+        margin-left: 50px;
+    }
+    h1,h2{
+        margin-left: 120px;
+    }
+    #idupgraden{
+        margin-left: 300px;
+    }
+    body,#idupgraden{
+        margin-top: 150px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .cookieclickerklasse{
+        width: 100%;
+        height: 100%;
+    }
+    #cookiebild{
+        height: 90px;
+    }
+    h3,h4,#Home,#button,body{
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    #notgenut{
+        font-weight: 10;
+    }
+    #Upgrades{
+        margin-left: 60px;
+    }
+    h1{
+        margin-left: 190px;
+    }
+    #plusplus{
+        margin-left: 107px;
+    }
+    #idupgraden{
+        margin-left: 170px;
+    }
+}

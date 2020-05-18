@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<script>
+    var cookiecount = 0;
+</script>
+<html>
+<head>
+    <link rel="icon" href="img\Cookie.png">
+    <title>CookieClicker</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" , initial-scale=1>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+</head>
+<body>
+    <div class="cookieclickerklasse">
+    <section id="Home">
+        <h1 id="count">Cookies:</h1>
+        <h2 id="plusplus">1 Cookies pro Click</h2>
+        <a id="cookiebild" onclick="add()" Width="512" Height="512"><img src="img\Cookie.png">
+        <h3 id="notgenug"></h3>
+        </a>
+    </section>
+
+    <script data-original-src="JS\cookieupper.js" src="JS\cookieupper.js"></script>
+
+    <section id="Upgrades">
+        <a onclick="pluseins()" Width="400" Height="130" id="button"><img src="img\upgrd.png">
+        </a>;
+        <br>
+        <h4>AutoClicker Kaufen/Upgraden(100 Cookies):</h4>
+        <a onclick="upgraden()" Width="64" Height="64" id="idupgraden"><img src="https://img.icons8.com/wired/64/000000/upgrade.png"/>
+            </a>
+    </section>
+    </div>
+</body>
+
+</html>
